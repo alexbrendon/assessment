@@ -1,0 +1,44 @@
+@import url("../../util.css");
+
+
+.sidebar {
+    grid-area: sidebar;
+    
+
+    .product-header {
+        text-align: center;
+        margin: 15px 1vw;
+
+        img {
+            max-width: 100%;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+    
+        p {
+            color: #B4BFD4;
+            font-size: 14px;
+        }
+    }
+
+    .tags {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid #F6F7F9;
+        border-bottom: 1px solid #F6F7F9;
+        padding: 15px;
+        gap: 10px;
+        
+
+        li {
+            border: 1px solid #EDEFF5;
+            border-radius: 4px;
+            padding: 5px 25px;
+            color: #525C72;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+html {
+    background-color: #F6F8FA;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    height: 100vh;
+
+    grid-template-areas:
+    "sidebar graphView"
+    "sidebar tableView";
+
+    margin: 25px;
+    gap: 25px;
+}
+

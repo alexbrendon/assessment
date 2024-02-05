@@ -1,0 +1,30 @@
+.tableView {
+    grid-area: tableView;
+
+    table {
+        width: 100%;
+        border-collapse: collapse; 
+        
+        thead tr {
+            border-top: none;
+        }
+
+        tr {
+            border-top: 1px solid #F5F7F9;
+            border-bottom: 1px solid #F5F7F9;
+        }
+
+        th {
+            color: #52687C;
+        }
+
+        td {
+            color: #A4ADBB;
+        }
+
+        td, th {
+            padding: 15px 5px;
+            text-align: right;
+        }
+    }
+}
