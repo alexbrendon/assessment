@@ -2,8 +2,8 @@
 
 
 .sidebar {
-    grid-area: sidebar;
-    
+    min-height: 100vh;
+    min-width: 180px;
 
     .product-header {
         text-align: center;

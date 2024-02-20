@@ -16,8 +16,10 @@ function App() {
         <Header />
         <div className="layout">
             <SideBar title={title} subtitle={subtitle} image={image} tags={tags} />
-            <GraphView sales={sales} />
-            <TableView sales={sales} />
+            <main>
+                <GraphView sales={sales} />
+                <TableView sales={sales} />
+            </main>
         </div>
     </div>
   );
